@@ -1,0 +1,12 @@
+# * * * * * 
+# * * * * * 
+# * * * * * 
+# * * * * * 
+
+
+N= int(input("enter rows"))
+M = int(input("enter columns"))
+for i in range(0,N):
+    for j in range(0,M):
+        print("*",end = " ")
+    print()
