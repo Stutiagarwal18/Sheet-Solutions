@@ -1,0 +1,11 @@
+#You are given an integer array A.
+#You have toprint the odd and even elements of arrayA in 2separate lines
+
+A = [1, 2, 3, 4, 5]
+for i in A:
+    if i % 2 != 0:
+        print(i, end=" ")
+print()
+for i in A:
+    if i % 2 == 0:
+        print(i, end=" ")

@@ -1,0 +1,13 @@
+"""For array A,you have to find the value of absolute difference between the counts of
+ even and odd elements in the array"""
+
+A = [1, 2, 3, 4]
+evenCount = 0
+oddCount = 0
+for i in A:
+    if i % 2 == 0:
+        evenCount += 1
+    else:
+        oddCount += 1
+diff = evenCount - oddCount
+print(diff)
